@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'profile': "url('../assets/placeholder.jpg')",
-        'linktree': "url('../assets/full-bloom.png')",
+        'profile': "url('./assets/placeholder.jpg')",
+        'linktree': "url('./assets/full-bloom.png')",
       }
     }
   },
