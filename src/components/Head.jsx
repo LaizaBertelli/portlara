@@ -6,7 +6,7 @@ export default function Head() {
         <h2 className="mx-auto text-2xl font-semibold">Melhore suas vendas com propagandas</h2>
       </section>
       <section className="flex basis-2/4 flex-col h-full place-content-evenly">
-        <div className="m-auto bg-profile w-28 h-28 rounded-full"></div>
+        <div className="m-auto bg-profile bg-cover w-28 h-28 rounded-full"></div>
         <button className="bg-[#F53B00] text-white text-lg p-2 w-3/5 m-auto rounded-full">CONTRATE</button>
       </section>
     </div>
