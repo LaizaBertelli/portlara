@@ -9,7 +9,7 @@ import WppButton from "../components/wppButton";
 
 export default function Home() {
   return (
-    <div className="h-full bg-[#E5E5E5]">
+    <div className="h-full bg-light-grey">
       <WppButton />
       <Header />
       <Head />

@@ -12,7 +12,7 @@ export default function Linktree () {
       <button className="bg-[#F53B00] text-white h-10 w-4/5 text-xl text-bold" onClick={ () => window.open(CONTACT_URL) }>CONTATO</button>
       <button className="bg-[#F53B00] text-white h-10 w-4/5 text-xl text-bold" onClick={ () => navigate('/home') }>MIDIA KIT</button>
       <button className="bg-[#F53B00] text-white h-10 w-4/5 text-xl text-bold" onClick={ () => window.open(GALMBOX_URL) }>GLAMBOX</button>
-      <button className="bg-[#F53B00] text-white h-10 w-4/5 text-xl text-bold" onCLick={ () => window.open(THENEWS_URL) }>THE NEWS</button>
+      <button className="bg-[#F53B00] text-white h-10 w-4/5 text-xl text-bold" onClick={ () => window.open(THENEWS_URL) }>THE NEWS</button>
     </div>
   );
 }
